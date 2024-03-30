@@ -1,0 +1,150 @@
+.face{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 100px auto;
+    animation: myFace 0.5s ease-in-out infinite 1s alternate;
+}
+
+.eye{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-bottom:0px solid yellow ;
+    border-radius: 50%;
+    border-top: 50px solid black;
+    
+}
+
+#leftEye{
+    position: relative;
+    bottom: 50px;
+    top: 90px;
+    left: 50px;
+    animation: myleftEye 0.5s ease-in-out infinite 1s alternate;
+
+}
+#rightEye{
+    position: relative;
+    bottom: 60px;
+    left: 250px;
+    animation: myrightEye 0.5s ease-in-out infinite 1s alternate;
+}
+
+.mouth{
+    height: 105px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 50%;
+    border-bottom: 100px solid brown;
+    position: relative;
+    left: 70px;
+    bottom: 150px;
+    animation: myMouth 0.5s ease-in-out infinite 1s alternate;
+    
+}
+
+
+#leftTear{
+    border-top-left-radius: 50%;
+    position: relative;
+    bottom: 340px;
+    right: 58px;
+    transform: rotate(-10deg);
+    animation: myLefttear 0.5s ease-in-out infinite 1s alternate;
+    height: 100px;
+    width: 120px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color:#04D4F0;
+}
+
+#rightTear{
+    border-top-right-radius: 50%;
+    position: relative;
+    bottom: 436px;
+    left: 330.7px;
+    transform: rotate(16deg);
+    animation: myRighttear 0.5s ease-in-out infinite 1s alternate;
+    height: 100px;
+    width: 120px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color:#04D4F0;
+}
+
+#teeth{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    bottom: 470px;
+    left: 70px;
+    animation: myTeeth 0.5s ease-in-out infinite 1s alternate;
+}
+
+@keyframes myleftEye{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes myFace{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes myrightEye{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+@keyframes myLefttear{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes myRighttear{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes myMouth{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes myTeeth{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+} 
+
+
+
